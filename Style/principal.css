@@ -1,0 +1,237 @@
+.paragrafo1 {
+   color: black;
+}
+
+body {
+  background:#d0d6f3;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 0px;
+  }
+  
+  p{
+    font-family: "Arial";
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+  /* Titles */
+  
+  h1{
+    font-family: "Raleway";
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  h2, h4, h5, h6 {
+    font-family: "Arial";
+    font-weight: 300;
+    color:black;
+    text-align: center;
+  }
+
+  h5 a{
+    color: #ff4700;
+  }
+
+  h3{
+    font-family: "Raleway";
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  height: 350px;
+  position: relative;
+  margin: auto;
+  margin-top: 5px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #0d6efd;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+   
+  /* Paragraph & Typographic */
+  
+  .centered {
+    text-align: center;
+  }
+  
+  /* Links */
+  .imgSlide{
+    height: 350px;
+    width: 700px;
+  }
+
+  img{
+    height: 200px;
+    width: 400px;
+  }
+
+  .Bandeira{
+    height: 100px;
+    width: 150px;
+  }
+
+  .Direita{
+    text-align: right;
+  }
+
+  .Esquerda{
+    text-align: left;
+  }
+
+  a {
+    color: #f8fc0d;
+    word-wrap: break-word;
+    text-decoration: none;
+    outline: 0;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+  }
+  a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+  }
+  
+  a:before, a:after {
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+  }
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 0px;
+  }
+  
+  .navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+    max-width: 100px;
+    margin-left: 50px;
+    padding: 0px;
+    border-radius: 20px;
+  }
+  
+  .navbar-inverse .navbar-nav>.active>a {
+    background: #ff7878
+  }
+  
+  .navbar-inverse .navbar-brand {
+    color: #d8d8d8;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  
+  .navbar-inverse .navbar-brand i {
+    color: #ff7878;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  
+  /*TILT*/
+  
+
+  /* Copyrights */
+  
+  #copyrights {
+    background: #222222;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #copyrights p {
+    margin-bottom: 5px;
+  }
+  
+  .credits {
+    color: #999;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link{
+    color: rgba(255,255,255,100) !important;
+  }
+
+  .btn-outline-success{
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+  }
